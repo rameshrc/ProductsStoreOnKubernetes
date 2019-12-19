@@ -5,7 +5,7 @@ namespace: helm-namespace
 buildId: 8 # will be incremented in the CI/CD
 web:
   image:
-    dockerHubId: houssemdocker
+    dockerHubId: rameshrc
     name: products-store-mvc
     tag: v2.848 # #{Build.BuildId}#
     replicaCount: 1

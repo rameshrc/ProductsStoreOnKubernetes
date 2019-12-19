@@ -13,9 +13,9 @@ $ dotnet run
 # Open the web app on https://localhost:5001/metrics
 
 # Create a docker container
-$ docker build -t houssemdocker/webappmonitoring:prometheus .
-$ docker run -d -p 5555:80/tcp houssemdocker/webappmonitoring:prometheus
-$ docker push houssemdocker/webappmonitoring:prometheus
+$ docker build -t rameshrc/webappmonitoring:prometheus .
+$ docker run -d -p 5555:80/tcp rameshrc/webappmonitoring:prometheus
+$ docker push rameshrc/webappmonitoring:prometheus
 
 # deploy the container into Kubernetes
 $ kubectl apply -f web-deploy-svc.yaml

@@ -59,9 +59,9 @@ Source: https://blog.nebrass.fr/playing-with-spring-boot-on-kubernetes/
 ### 4) Push containers to Docker Hub  
 	
     4.1) Tag image, login, push  
-	4.2) $ docker tag mvc-app:1.0 houssemdocker/mvc-app:1.0  # use your own Docker Hub ID  
+	4.2) $ docker tag mvc-app:1.0 rameshrc/mvc-app:1.0  # use your own Docker Hub ID  
 	4.3) $ docker login  
-	4.4) $ docker push houssemdocker/mvc-app:1.0  
+	4.4) $ docker push rameshrc/mvc-app:1.0  
          Check your hub.docker.io
 	
 ### 5) Deploy to Kubernetes using the Dashboard  

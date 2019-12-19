@@ -25,7 +25,7 @@ kubectl describe pod mvc-app-1-0-565fc694d8-q9rvr -n products
 # ...
 # Containers:
 #   mvc-app:
-#     Image:         houssemdocker/products-store-mvc:v1.0
+#     Image:         rameshrc/products-store-mvc:v1.0
 #     ...
 #   istio-proxy:
 #     Image:         docker.io/istio/proxyv2:1.1.3
