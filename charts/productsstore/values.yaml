@@ -1,7 +1,7 @@
 # Default values for productsstore.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
-namespace: helm-namespace
+namespace: helm-namespace1
 buildId: 8 # will be incremented in the CI/CD
 web:
   image:
